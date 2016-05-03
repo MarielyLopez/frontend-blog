@@ -1,0 +1,82 @@
+body{
+    margin: 25px 50px 75px;
+}
+
+h4{
+    display: inline-block;
+    color: #000033;
+    font-family: Arial;
+    float: center;
+}
+
+.containerSearchButton{
+    display: inline-block;
+    float: right;
+    line-height: 10px;
+    font-family: Arial;
+    float: center;
+}
+
+
+.home_link{
+    float: left;
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.searchButton{
+    display: inline-block;
+    float: right;
+    padding-top: 15px;
+
+}
+
+.containerBlog{
+    border-radius: 20px;
+    float: center;
+    background-color: #cce0ff;
+    text-align: left;
+    font-family: arial;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+h1{
+    color:#000033;
+}
+.textBlog{
+    color:#000033;
+}
+
+.posts{
+    background-color: #5DBCD2;
+    border-radius: 20px;
+    height: 125px;
+    width: 1185px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    /*border-radius: 4px;*/
+}
+
+h3{
+    font-family: Arial;
+    color: #000033;
+}
+
+
+
+
+
+
+/*.name{
+    display: inline-block;
+}*/
+
+/*
+    padding-right: 50px;
+    padding-bottom: 50px;*/
+

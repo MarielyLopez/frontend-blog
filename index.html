@@ -26,12 +26,48 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
-  <body>
-
-    <div class="posts"></div>
+<body>
+    <div class="searchContainer">
+            <h4 class="nameBlog">Cognits Blog</h4>
+        <div class="containerSearchButton">
+            <a href="" class="home_link">Home</a>
+                <div id="input" class="right">
+                    <form class="right">
+                        <input/><!--This is the search bar-->
+                    </form>
+                </div>
+ 
+            <a href="" class="searchButton">Search</a>
+        </div>
+    </div> <!--End of div "searchContainer-->
+    <hr/>
+    <br/>
+    <div class="containerBlog">
+        <h1 class="blog" > Cognits Blog</h1>
+        <p class="textBlog"> This project is so they can learn to use HTML, CSS and JavaScript. </p>
+            </div>
+    </div>
+    <div class="posts">
+        <h3>Man must explore, and this is exploration at its greatest</h3>
+        <p>Problems look mighty samall from 150 miles up</p>
+        <h5>Posted by Cognits Student,November2014</h5>
+        <!--label for="fname">First Post</label>
+        <br/-->
+        <!--input-->
+        <!--input type="text" id="fpost" name="firstpost"-->
+    </div>
+    <div class="posts">
+        <h3>Second Post</h3>
+        <p>Information from second post.</p>
+        <h5>Posted by Cognits Student,November2014</h5>
+    </div>
+    <div class="posts">
+        <h3>Third post</h3>
+        <p>Information from third post.</p>
+        <h5>Posted by Cognits Student,November2014</h5>
+    </div>
 
 
     <!-- Bootstrap core JavaScript
@@ -43,3 +79,11 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 
   </body>
 </html>
+
+<!-- ver la linea 36 a la 41 lo que se quiso hacer es el imput para sera luego centrar el texto de abajo
+  <div id="input" class="right">
+                    <form class="right">
+                        <input name="searcher" id="searcher" type="text" value="" placeholder="Search..." onclick="this.value='';"/><!This is the search bar-->
+                    <!--/form>
+                div-->
+
