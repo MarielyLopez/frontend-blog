@@ -1,11 +1,12 @@
 body{
     margin: 25px 50px 75px;
+    font-family: Comic Sans MS;
 }
 
 h4{
     display: inline-block;
     color: #000033;
-    font-family: Arial;
+    /*font-family: Arial;*/
     float: center;
 }
 
@@ -13,7 +14,7 @@ h4{
     display: inline-block;
     float: right;
     line-height: 10px;
-    font-family: Arial;
+    /*font-family: Arial;*/
     float: center;
 }
 
@@ -29,15 +30,19 @@ h4{
     display: inline-block;
     float: right;
     padding-top: 15px;
-
+    cursor:pointer;
+    color: #008EC7;
 }
 
 .containerBlog{
-    border-radius: 20px;
+    /*border-radius: 20px;*/
+
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
     float: center;
     background-color: #cce0ff;
     text-align: left;
-    font-family: arial;
+    font-family: Comic Sans MS;
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -51,32 +56,40 @@ h1{
 }
 
 .posts{
-    background-color: #5DBCD2;
-    border-radius: 20px;
-    height: 125px;
+    background-color: white;
+    /*border-radius: 20px;*/
+    height: 280px;
     width: 1185px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 2px solid #000033;
     /*border-radius: 4px;*/
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
 }
 
 h3{
+    color: #008EC7;
+}
+
+.informationP{
     font-family: Arial;
-    color: #000033;
+    color: #008EC7;
 }
 
 
+.view_more_post{
+    border-radius: 10px;
+}
+
+.Newest{
+    display:inline-block;
+}
 
 
-
-
-/*.name{
-    display: inline-block;
-}*/
-
-/*
-    padding-right: 50px;
-    padding-bottom: 50px;*/
+.searchColor{
+    background-color: #3385ff;
+    color: #001f4d;
+}
 

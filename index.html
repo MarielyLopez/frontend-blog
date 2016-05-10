@@ -31,43 +31,91 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 <body>
     <div class="searchContainer">
             <h4 class="nameBlog">Cognits Blog</h4>
+
         <div class="containerSearchButton">
-            <a href="" class="home_link">Home</a>
+            <a href="" class="home_link">>Home</a>
                 <div id="input" class="right">
                     <form class="right">
-                        <input/><!--This is the search bar-->
+                    <input type="text" id="searButt"/><!--This is the search bar-->
                     </form>
                 </div>
- 
-            <a href="" class="searchButton">Search</a>
+                    <p  class="searchButton" onclick="highlightText();">Search</p>
+                
         </div>
+
+
     </div> <!--End of div "searchContainer-->
+
     <hr/>
     <br/>
+
     <div class="containerBlog">
-        <h1 class="blog" > Cognits Blog</h1>
+        <h1 class="blog" > <strong>Cognits Blog</strong></h1>
         <p class="textBlog"> This project is so they can learn to use HTML, CSS and JavaScript. </p>
-            </div>
     </div>
+
+
     <div class="posts">
-        <h3>Man must explore, and this is exploration at its greatest</h3>
-        <p>Problems look mighty samall from 150 miles up</p>
-        <h5>Posted by Cognits Student,November2014</h5>
-        <!--label for="fname">First Post</label>
-        <br/-->
-        <!--input-->
-        <!--input type="text" id="fpost" name="firstpost"-->
+        <h3 class="titlePost1 searchValue1"></h3>
+        <p class="contentPost1 searchValue2"></p>
+        <h5>Posted by <a>Cognits Student</a>,November2014</h5>
+        <br/>
     </div>
+    <div style= "border-style: outset;">
+    <form name="checkListForm">
+        <input type="text" name="checkListItemP1" placeholder="Su nombre"/>
+    </form>
+    <form name="checkListForm2">
+        <input type="text" name="checkListItem2P1" placeholder="Su comentario"/>
+    </form>
+        <button class = "button1">Comment!</button>
+        <br/>
+    <div class="list1"></div>
+    </div>
+
+
     <div class="posts">
-        <h3>Second Post</h3>
-        <p>Information from second post.</p>
-        <h5>Posted by Cognits Student,November2014</h5>
+        <h3 class="titlePost2 searchValue3"></h3><!--Title of the second post-->
+        <p class="contentPost2 searchValue4"></p>
+        <h5>Posted by <a>Cognits Student</a>,November2014</h5>
+        <br/>
     </div>
+    <div style= "border-style: outset;">
+    <form name="checkListForm">
+        <input type="text" name="checkListItemP2" placeholder="Su nombre"/>
+    </form>
+    <form name="checkListForm2">
+        <input type="text" name="checkListItem2P2" placeholder="Su comentario"/>
+    </form>
+        <button class = "button2">Comment!</button>
+        <br/>
+        <div class="list2"></div>
+    </div>
+
+
     <div class="posts">
-        <h3>Third post</h3>
-        <p>Information from third post.</p>
-        <h5>Posted by Cognits Student,November2014</h5>
+        <h3 class="titlePost3 searchValue5"></h3><!--Title of the second post-->
+        <p class="contentPost3 searchValue6"></p>
+        <h5>Posted by <a>Cognits Student</a>,November2014</h5>
     </div>
+    <div style= "border-style: outset;">
+    <form name="checkListForm">
+        <input type="text" name="checkListItem" placeholder="Su nombre"/>
+    </form>
+    <form name="checkListForm2">
+        <input type="text" name="checkListItem2" placeholder="Su comentario"/>
+    </form>
+        <button class = "button3">Comment!</button>
+        <br/>
+        <div class="list3"></div>
+    </div>
+
+
+    <br/>
+
+    <div class="rowButton_container">
+    <button class="view_more_post Newest">← Newest Posts</button>
+    <button class="view_more_post Older">Older Posts →</button>
 
 
     <!-- Bootstrap core JavaScript
@@ -76,14 +124,6 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
     <script src="js/libs/jquery-2.1.1.js"></script>
     <script src="js/script.js"></script>
     <script src="js/libs/bootstrap.js"></script>
-
-  </body>
+    </body>
 </html>
-
-<!-- ver la linea 36 a la 41 lo que se quiso hacer es el imput para sera luego centrar el texto de abajo
-  <div id="input" class="right">
-                    <form class="right">
-                        <input name="searcher" id="searcher" type="text" value="" placeholder="Search..." onclick="this.value='';"/><!This is the search bar-->
-                    <!--/form>
-                div-->
 
